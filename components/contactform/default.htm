@@ -1,0 +1,26 @@
+<div role="form" class="contact-form-wrapper">
+    <form id="contact-form" action="#" 
+        aria-label="{{'ctro.contact::lang.plugin.name'|trans}}" 
+        data-success="{{'ctro.contact::lang.strings.success'|trans}}" 
+        data-error="{{'ctro.contact::lang.strings.error'|trans}}">
+        <input id="contact-form-name" name="name"
+            data-label="{{'ctro.contact::lang.strings.name'|trans}}" 
+            data-invalid="{{'ctro.contact::lang.strings.invalid_name'|trans}}" 
+            placeholder="{{'ctro.contact::lang.strings.name'|trans}}" autocomplete="nickname" autocorrect="off" type="text">
+        <input id="contact-form-email" name="email" 
+            data-label="{{'ctro.contact::lang.strings.email'|trans}}" 
+            data-invalid="{{'ctro.contact::lang.strings.invalid_email'|trans}}" 
+            placeholder="{{'ctro.contact::lang.strings.email'|trans}}" autocomplete="email" autocapitalize="off" autocorrect="off" spellcheck="false" type="text">
+        <textarea id="contact-form-content" name="content" 
+            data-label="{{'ctro.contact::lang.strings.content'|trans}}" 
+            data-invalid="{{'ctro.contact::lang.strings.invalid_content'|trans}}" 
+            placeholder="{{'ctro.contact::lang.strings.content'|trans}}" ></textarea>
+        <button id="contact-form-submit" class="lazy-loaded" type="submit"> 
+            <span>{{'ctro.contact::lang.strings.send'|trans}}</span>
+            <svg class="spinner" viewBox="0 0 50 50">
+                <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
+            </svg>
+        </button>
+        <span id="contact-form-alert"></span>
+    </form>
+</div>

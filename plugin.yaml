@@ -1,0 +1,6 @@
+plugin:
+    name: 'ctro.contact::lang.plugin.name'
+    description: 'ctro.contact::lang.plugin.description'
+    author: ctro
+    icon: oc-icon-envelope
+    homepage: ''
