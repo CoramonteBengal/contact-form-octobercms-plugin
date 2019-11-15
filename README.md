@@ -1,7 +1,7 @@
 
 # Contact Form October CMS Plugin
 
-KISS Contact form plugin for use in my [awesome bengal cat](https://www.coramontebengal.com) page build with October CMS ;)
+KISS Contact form plugin for use in my [awesome bengal cat](https://www.coramontebengal.com) page built with October CMS ;)
 
 ## Installation
 
@@ -15,4 +15,7 @@ Add the Contact Form component into any page and configure the settings. You nee
 * The email template to use
 * The recipient of the email (each message is sent vía e-mail).
 
+## Dependencies
 
+* jQuery
+* No dependencies of `@framework` scripts
